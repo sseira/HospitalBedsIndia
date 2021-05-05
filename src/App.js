@@ -5,7 +5,7 @@ import Retool from 'react-retool';
 
 function App() {
   return (
-    <Retool url="https://hospitalbeds.retool.com/embedded/public/676133f0-5108-4f78-bd4d-e5e9d0ba5672_hideNav=true&_hideTimer=true?"/>
+    <Retool url="https://hospitalbeds.retool.com/embedded/public/676133f0-5108-4f78-bd4d-e5e9d0ba5672?_hideNav=true&_hideTimer=true"/>
   );
 }
 
