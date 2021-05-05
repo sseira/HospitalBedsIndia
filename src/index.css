@@ -9,6 +9,6 @@ body, html, #root {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.retool-help-button {
+.retool-help-button, .retool-branding {
   display: none;
 }
