@@ -1,24 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Retool from 'react-retool';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Retool url="https://hospitalbeds.retool.com/apps/Onboarding%20Page?_hideNav=true&_hideTimer=true"/>
   );
 }
 
